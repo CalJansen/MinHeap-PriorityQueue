@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\CSE310Project1\CSE310Project1\heap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CSE310Project1\CSE310Project1\heap.cpp" />
+    <ClCompile Include="..\..\..\CSE310Project1\CSE310Project1\main.cpp" />
+    <ClCompile Include="..\..\..\CSE310Project1\CSE310Project1\util.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{292F4D00-6B01-4B28-8AB9-A79470D82EEE}</ProjectGuid>
@@ -114,8 +122,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
